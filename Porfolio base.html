@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Porfolio Solis</title>
+    <link rel="stylesheet" type="text/CSS" href="estiloporfolio.css">
+  </head>
+  <body>
+    <h1>Hola Soy Manuel Solis</h1>
+    <p class="Descripcion">
+      Me apasiona temas como son: La tecnologia, Los videojuegos tanto nuevos como Retro, peliculas y series .</p>
+      <br>
+     <p class="findescripcion"> Me interesa el trabajo en equipo, siempre dispuesto a recibir criticas constructivas para poder continuar mejorando de forma personal y laboral.
+     </p>
+    <hr />
+    <ul>
+      <li><a href="#ExpPro">Experiencia profecional</a></li>
+      <li><a href="#HayCo">Habilidades y conocimientos</a></li>
+      <li><a href="#Edu">Educacion</a></li>
+      <li><a href="#PerSo">Perfiles sociales</a></li>
+      <li><a href="#Cont">Contactar</a></li>
+    </ul>
+    <h2 id="ExpPro">Experiencia Profesional</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Empresa / Organizacion</th>
+          <th>Cargo</th>
+          <th>Localizacion</th>
+          <th>Desde-Hasta</th>
+        </tr>
+      </thead>
+      <tr>
+        <td>Vie</td>
+        <td>2do De Cocina</td>
+        <td>Maldonado (Uruguay)</td>
+        <td>Octubre 2019-Actualidad</td>
+      </tr>
+      <tr>
+        <td>Enjoy</td>
+        <td>Cocinero en Restaurant "Las Brisas"</td>
+        <td>Punta del Este (Maldonado)</td>
+        <td>octubre 2017 - octubre 2019</td>
+      </tr>
+      <tr>
+        <td>Restaurante "Lo De Silverio"</td>
+        <td>Cocinero</td>
+        <td>Montevideo</td>
+        <td>Noviembre 2015 - octubre 2017</td>
+      </tr>
+      <tr>
+        <td>Empresa Disco</td>
+        <td>Oprerador de Area de Recepcion</td>
+        <td>Montevideo (uruguay)</td>
+        <td>Enero 2014 - noviembre 2015</td>
+      </tr>
+    </table>
+    <hr />
+    <h2 id="HayCo">Habilidades y conocimientos</h2>
+    <ul>
+      <li>
+        <strong>Desarrollo web:</strong>HTML5, CSS3, JavaScript.
+      </li>    
+      
+      <li><strong>Emprendimiento:</strong> startups, Learn Startups, etc.</li>
+      <li><strong>Lenguajes:</strong> Ingles</li>
+      <li>
+        <strong>Gastronomia:</strong> email marketing, redes sociales,
+        gamificacion, nuture marketing, lead scornign, etc.
+      </li>
+      <li>
+        <strong>Sistemas de informacion geografica (GIS):</strong> ArcGIS APIs
+      </li>
+    </ul>
+    <hr />
+    <h2 id="Edu">Educación</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Titulo</th>
+          <th>Entidad</th>
+          <th>Promocion</th>
+        </tr>
+      </thead>
+      <tr>
+        <td>Desarrollo web</td>
+        <td>Plan Ceibal(Jovenes a programar)</td>
+        <td>2023</td>
+      </tr>
+      <tr>
+        <td>FCE</td>
+        <td>First Certificate of English: Dikens</td>
+        <td>2013</td>
+      </tr>
+      <tr>
+        <td>Profecional en el Arte Culinario y Gestion Gastronomica</td>
+        <td>Gato Dumas Uruguay</td>
+        <td>2018</td>
+      </tr>
+    </table>
+    <hr />
+    <h2 id="PerSo">Perfiles sociales</h2>
+    <p class="Referencia">Tambien puedes encontrarme en:</p>
+    <ul class="datos">
+      <li><a href="">ManuelSolis</a></li>
+      <li><a href="">Github</a></li>
+      <li><a href="">Twitter</a></li>
+      <li><a href="">Linkedin</a></li>
+    </ul>
+    <hr />
+    <h2 id="Cont">Contactar</h2>
+    <form>
+      <label for="correo">Correo: </label>
+      <input type="email" id="correo" name="correo" required /><br />
+      <label for="opciones">Tematica: </label>
+      <select id="opciones" name="opciones">
+        <option value="opcion0">--Elige un tema--</option>
+        <option value="opcion1">Consulta</option>
+        <option value="opcion2">Propuesta</option>
+        <option value="opcion3">Reporte</option>
+        <option value="opcion4">Otro</option>
+      </select>
+      <br />
+      <label for="asunto">Asunto: </label>
+      <input type="text" id="asunto" name="asunto" required /><br />
+      <label for="mensaje">Cuerpo: </label>
+      <textarea id="mensaje" name="mensaje" rows="4" cols="50"></textarea>
+      <input type="submit" value="Enviar" />
+    </form>
+  </body>
+</html>

@@ -1,0 +1,116 @@
+h1 {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 70px;
+    color: rgb(252, 215, 147);
+    text-shadow: -1px 0 black, 0 2px black,
+    2px 0 black, 0 -1px black ;
+    
+    
+    
+
+}
+
+h2 {
+    text-shadow: -1px 0 black, 0 2px black,
+    2px 0 black, 0 -1px black ;
+    font-size: 40px;
+    color: rgb(252, 215, 147);
+    ;
+    text-align: center;
+}
+
+table {
+    text-shadow: -1px 0 black, 0 2px black,
+    2px 0 black, 0 -1px black ;
+    font-size: 25px;
+    color: #7ca4e3;
+   
+    
+}
+
+body {
+    background-image: url(jazmin-quaynor-bm9zWKi_c9Y-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+p.Descripcion {
+    text-align: center;
+    text-shadow: -1px 0 black, 0 2px black,
+    2px 0 black, 0 -1px black ;
+    
+    font-size: 40px;
+    color: #7ca4e3;
+    
+    
+}
+
+ p.Referencia {
+    text-align: justify;
+    text-shadow: -1px 0 black, 0 2px black,
+    2px 0 black, 0 -1px black  ;
+    font-size: 30px;
+    color: rgb(252, 215, 147);
+
+}
+
+p.findescripcion{
+    text-align: center;
+    text-shadow: -1px 0 black, 0 2px black,
+    2px 0 black, 0 -1px black ;
+    
+    font-size: 40px;
+    color: #7ca4e3;
+ 
+    
+
+}
+
+ul{
+    text-shadow: -1px 0 black, 0 2px black,
+    2px 0 black, 0 -1px black  ;
+    font-size: 25px;
+    color: #7ca4e3;
+    text-align: justify;
+
+}
+
+ul.datos {
+    text-shadow:-1px 0 black, 0 2px black,
+    2px 0 black, 0 -1px black  ;
+    font-size: 25px;
+    color: rgb(252, 215, 147);
+    text-align: justify;
+    
+    
+}
+
+ h2#ExpPro {
+    text-align: center;
+    text-shadow: -1px 0 black, 0 2px black,
+    2px 0 black, 0 -1px black ;
+    font-size: 45px;
+    color: rgb(252, 215, 147);
+
+}
+ 
+h2#PerSo {
+    text-align: center;
+    text-shadow: -1px 0 black, 0 2px black,
+    2px 0 black, 0 -1px black ;
+    font-size: 40px;
+    color: rgb(252, 215, 147);
+}
+
+form {
+    
+    text-shadow: -1px 0 black, 0 2px black,
+    2px 0 black, 0 -1px black ;
+    
+    font-size: 35px;
+    color: rgb(252, 215, 147);
+    
+}
